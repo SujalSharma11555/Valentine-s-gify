@@ -288,7 +288,7 @@ const fetchData = () => {
               .setAttribute("src", data[customData]);
           } else {
             document.getElementById(customData).innerText = data[customData];
-            document.body.style.backgroundColor = "#AA0000";
+            document.getElementById('a').style.backgroundImage="url(https://codingstella.com/how-to-create-valentines-day-letter-using-html-css-javascript/)";
           }
         }
       });
